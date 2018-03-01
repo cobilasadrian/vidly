@@ -1,0 +1,11 @@
+﻿[Required]
+[StringLenght(255)]
+[Range(1,10)]
+[Compare("OtherProperty")]
+[Phone]
+[EmailAddress]
+[Url]
+[RegularExpression("")]
+
+Customizing:
+[Required(ErrorMessage = "Please enter customer's name.")]

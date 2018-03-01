@@ -1,0 +1,7 @@
+﻿install-package bootbox -version:4.3.0
+
+install-package jquery.datatables -version:1.10.11
+
+install-package Twitter.Typeahead
+
+install-package toastr

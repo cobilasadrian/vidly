@@ -1,0 +1,5 @@
+﻿enable-migrations -contextTypeName ApplicationDbContext -MigrationsDirectory Migrations
+
+add-migration -configurationTypeName Vidly.Migrations.Configuration "IntialCreate"
+
+update-database -configurationTypeName Vidly.Migrations.Configuration 
